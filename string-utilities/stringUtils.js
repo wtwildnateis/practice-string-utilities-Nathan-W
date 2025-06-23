@@ -13,7 +13,7 @@ function capitalize(str) {
    if (str.length === 0) {
         return ("undefined");
    }
-    return str.toUpperCase();
+    return str[0].toUpperCase() + str.slice(1);
 }
 
 function reverse(str) {
